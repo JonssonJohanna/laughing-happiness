@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bfcfff;
+  position: relative;
+  margin: 0;
+  height: 100vh;
+}
+
+.mainButton {
+  color: rgb(196, 61, 61);
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background-color: #0000ff;
+  padding: 1rem;
+  border: none;
+}
+
+.animalImages {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40%;
+}
+
+.catItemOne {
+  height: 300px;
+  width: 300px;
+  display: block;
+}
+/* .catItemTwo {
+  height: 250px;
+  width: 350px;
+  display: block;
+}
+.dogItemOne {
+  height: 450px;
+  width: 400px;
+  display: block;
+}
+.dogItemTwo {
+  height: 300px;
+  width: 390px;
+  display: block;
+}
+.catItemThree {
+  height: 450px;
+  width: 400px;
+  display: block;
+} */
+
+.dog {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  right: 40%;
+  bottom: 0;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  z-index: 1;
+  background-color: #cba162;
+}
+
+.dogTail {
+  width: 60px;
+  height: 350px;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  background: #cba162;
+  position: absolute;
+  z-index: 3;
+  right: 42%;
+  bottom: 60%;
+  transform: rotate(30deg);
+  transform-origin: bottom;
+  animation: wagTail 1.5s infinite;
+}
+
+@keyframes wagTail {
+  0% {
+    transform: rotate(0deg);
+  }
+  35% {
+    transform: rotate(-30deg);
+  }
+  65% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+
+
+.mouseTracker {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  background-color: #0000ff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #0000ff;
+}
