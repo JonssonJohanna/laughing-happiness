@@ -11,9 +11,9 @@ powerButton.addEventListener('click', (imageClick) => {
 // Defined a function that conect button with image and image change when clicking on the button
 function imageClick() {
   const imgBefore = document.querySelector('.christmastreeNotLight');
-  if (imgBefore.src.match('/images/notLight.svg')) {
-    imgBefore.src = '/images/light.svg';
+  if (imgBefore.src.match('/images/christmastreeNotLight.svg')) {
+    imgBefore.src = '/images/christmastreeLight.svg';
   } else {
-    imgBefore.src = '/images/notLight.svg';
+    imgBefore.src = '/images/christmastreeNotLight.svg';
   }
 }
