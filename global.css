@@ -1,28 +1,49 @@
+:root {
+  /* Font sizse */
+  --h1: 2.5rem;
+  --h2: 2rem;
+  --h3: 1rem;
+  --p: 0.875rem;
+
+  /* Colors */
+  --color-background: #682332;
+  --color-second-bg: #ce4b4b;
+  --color-text: #f5dfbc;
+  --color-border: #0d3f33;
+
+  /* Fonts */
+  --font-main: Poppins-Regular;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #ce4b4b;
+  background-color: var(--color-background);
   position: relative;
   margin: 0;
+  padding: 20px;
   height: 100vh;
 }
 
 .powerButton {
-  color: #f5dfbc;
-  font-weight: bold;
-  font-size: 1.5rem;
-  position: absolute;
-  right: 30px;
+  color: var(--color-text);
+  position: fixed;
+  padding: 20px;
+  right: 10%;
   top: 30px;
-  background-color: #ce4b4b;
+  height: 100px;
+  width: 80px;
+  background-color: var(--color-background);
   padding: 1rem;
-  border: 5px solid #0d3f33;
+  border: 5px solid var(--color-text);
 }
 
-div img {
-  height: 840px;
-  width: 710px;
-  top: 0;
+.christmastreeNotLight {
+  height: 600px;
+  width: 390px;
+  margin-right: 10%;
+  bottom: 0;
+  position: absolute;
 }
