@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ce4b4b;
+  position: relative;
+  margin: 0;
+  height: 100vh;
+}
+
+.powerButton {
+  color: #f5dfbc;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background-color: #ce4b4b;
+  padding: 1rem;
+  border: 5px solid #0d3f33;
+}
+
+div img {
+  height: 840px;
+  width: 710px;
+  top: 0;
+}
