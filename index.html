@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="/media/color.css">
-    <link rel="stylesheet" href="/media/font.css">
-    <link rel="stylesheet" href="/media/media.css">
-    <title>Christmas plate</title>
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <title>Christmas tree</title>
   </head>
   <body>
+    <header>
+      <h1>Useless Christmas tree</h1>
+      <h2>Click, doubelclick or press down a key.</h2>
+    </header>
     <main>
+      <p class="christmasText"></p>
 
+      <!-- Onclick function conects with JavaScript function -->
       <button onclick="imageClick()" class="powerButton">
-<img src="/images/plug.svg">
+        <img src="/images/plug.svg" />
       </button>
 
-    <img  class="christmastreeNotLight" src="/images/christmastreeNotLight.svg" alt="">
+      <img
+        class="christmastreeNotLight"
+        src="/images/christmastreeNotLight.svg"
+        alt=""
+      />
 
+      <!-- Linking data atributes from button with an audio element -->
+      <audio class="mySound" src="/sound/christmasSound.mp3"></audio>
     </main>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="script.js"></script>
+    <footer></footer>
+    <script src="click.js"></script>
+    <script src="scroll.js"></script>
+    <script src="doubleClick.js"></script>
   </body>
 </html>
