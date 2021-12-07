@@ -22,27 +22,27 @@ const christmasBubbles = [
   {
     color: '#F3CFBA',
     x: -0.3,
-    y: -0.5,
+    y: -0.38,
   },
   {
     color: '#E6E656',
     x: 0.01,
-    y: 0.4,
+    y: 0.18,
   },
   {
-    color: '#237EE2',
+    color: '#E6E656',
     x: -0.2,
     y: -0.2,
   },
   {
     color: '#E6E656',
     x: 0.3,
-    y: 0.4,
+    y: 0.28,
   },
   {
     color: '#F3CFBA',
     x: -0.4,
-    y: 0.4,
+    y: 0.1,
   },
 ];
 
