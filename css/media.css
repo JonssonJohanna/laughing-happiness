@@ -5,10 +5,28 @@
 @media only screen and (min-width: 1024px) {
   /* desktop */
 
+  h1 {
+    color: var(--color-text);
+    text-align: left;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: var(--h1);
+    font-family: Poppins-Regular;
+    display: inline-table;
+  }
+
+  h2 {
+    color: var(--color-text);
+    text-align: left;
+    font-size: var(--h2);
+    font-family: Poppins-Regular;
+    display: inline;
+  }
   body {
     position: relative;
     margin: 0;
     padding: 20px;
+    height: 100vh;
   }
 
   .powerButton {
@@ -39,9 +57,9 @@
   }
 
   .christmastreeNotLight {
-    height: 700px;
+    height: 650px;
     width: auto;
-    top: 0;
+    margin-top: 0;
     position: absolute;
     object-fit: contain;
   }
