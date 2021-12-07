@@ -15,25 +15,26 @@
       <h2>Click, doubelclick or press down a key.</h2>
     </header>
     <main>
-      <p class="christmasText"></p>
-
-      <!-- Onclick function conects with JavaScript function -->
-      <button onclick="imageClick()" class="powerButton">
-        <img src="/images/plug.svg" />
+      <!-- button that contains an image -->
+      <button class="powerButton">
+        <img src="/images/plug.svg" alt="A plug" />
       </button>
+      <!-- Container that contains image and bubbles -->
+      <div class="christmastreeContainer">
+        <img
+          class="christmastreeNotLight"
+          src="/images/christmastreeNotLight.svg"
+          alt=""
+        />
+        <div class="bubblesContainer"></div>
+      </div>
 
-      <img
-        class="christmastreeNotLight"
-        src="/images/christmastreeNotLight.svg"
-        alt=""
-      />
-
-      <!-- Linking data atributes from button with an audio element -->
       <audio class="mySound" src="/sound/christmasSound.mp3"></audio>
     </main>
     <footer></footer>
-    <script src="click.js"></script>
-    <script src="scroll.js"></script>
-    <script src="doubleClick.js"></script>
+    <script src="/js/click.js"></script>
+    <script src="/js/scroll.js"></script>
+    <script src="/js/doubleClick.js"></script>
+    <script src="/js/key.js"></script>
   </body>
 </html>
