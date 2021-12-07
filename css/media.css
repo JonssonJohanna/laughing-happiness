@@ -29,11 +29,32 @@
     width: 90px;
   }
 
+  .christmastreeContainer {
+    height: 700px;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    margin-top: 0;
+    margin: auto;
+  }
+
   .christmastreeNotLight {
     height: 700px;
-    width: 710px;
+    width: auto;
     top: 0;
     position: absolute;
-    margin-left: 23%;
+    object-fit: contain;
+  }
+  .bubblesContainer {
+    display: flex;
+    height: 100%;
+    width: 502px;
+  }
+
+  .bubble {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: absolute;
   }
 }
