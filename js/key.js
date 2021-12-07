@@ -35,7 +35,8 @@ console.log('color', christmasBubbles[0].color);
 console.log('x', christmasBubbles[0].x);
 console.log('y', christmasBubbles[0].y);
 
-//Skapar fem kulor, skapar en divar, läggr till klassen bubbleItem, lägger bubbel som child till BubbleItem.
+//Skapar fem julkulor (div)->skapar div->adderar classnamn "bubble"->lägger till "bubble" som 'barn' till "bubblesContainer".
+
 //Loops thorugh bubbleInformation and calculates the width and height of the conatiner to make it easier to place the bubbles
 // on the X and Y axis, both in desktop and in mobile.
 christmasBubbles.forEach((bubbleInformation) => {
@@ -58,7 +59,11 @@ christmasBubbles.forEach((bubbleInformation) => {
   bubble.style.transform = `translate(${bubblePositionX}px, ${bubblePositionY}px)`;
 });
 
-const keyBubbles = document.getElementsByClassName('.bubble');
-window.addEventListener('keypress', function (event) {
-  keyBubbles.classList.toggle('hidden');
+const keyBubbles = document.querySelectorAll('.bubble');
+
+keyBubbles.forEach((keyBubble) => {
+  window.addEventListener('keypress', () => {
+    keyBubble.classList.toggle('on');
+    console.log('hello');
+  });
 });
