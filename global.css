@@ -57,7 +57,9 @@ h2 {
 .christmastreeContainer {
   height: 600px;
   width: 390px;
+  display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 .christmastreeNotLight {
