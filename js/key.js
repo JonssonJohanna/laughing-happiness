@@ -1,3 +1,5 @@
+// Array of objects that holds information about christmasBubbles, color and cordinates.
+
 const christmasBubbles = [
   {
     color: 'var(--color-bubble-red)',
@@ -46,9 +48,10 @@ const christmasBubbles = [
   },
 ];
 
-//Skapar fem julkulor (div)->skapar div->adderar classnamn "bubble"->lägger till "bubble" som 'barn' till "bubblesContainer".
-
-//Loops thorugh bubbleInformation and calculates the width and height of the conatiner to make it easier to place the bubbles
+// Loop -> creates five christmasbubbles (div) -> ads a class name to them
+// "bubble"-->bubble appendchild to "bubbleContainer"
+// Loops thorugh bubbleInformation and calculates the width and height of the
+// conatiner to make it easier to place the bubbles
 // on the X and Y axis, both in desktop and in mobile.
 christmasBubbles.forEach((bubbleInformation) => {
   const bubble = document.createElement('div');
@@ -70,6 +73,8 @@ christmasBubbles.forEach((bubbleInformation) => {
   bubble.style.transform = `translate(${bubblePositionX}px, ${bubblePositionY}px)`;
 });
 
+// Variable for the new class "bubble", and function that remove or adds
+// christmasbubbles when pressing any key.
 const keyBubbles = document.querySelectorAll('.bubble');
 
 keyBubbles.forEach((keyBubble) => {
