@@ -1,4 +1,8 @@
-// window.addEventListener('scroll', (event) => {
-//   document.body.style.backgroundColor =
-//     window.scrollY > 700 ? 'var(--color-background)' : 'var(--color-second-bg)';
-// });
+function changeColor() {
+  if (window.scrollY > window.innerHeight / 7) {
+    document.body.classList.add('backgroundColor');
+  } else {
+    document.body.classList.remove('backgroundColor');
+  }
+}
+window.addEventListener('scroll', changeColor);
