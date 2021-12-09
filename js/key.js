@@ -1,33 +1,33 @@
 const christmasBubbles = [
   {
-    color: '#237EE2',
+    color: '#E23045',
     x: 0,
     y: 0,
   },
   {
-    color: '#E23045',
-    x: 0.2,
-    y: -0.55,
+    color: '#237EE2',
+    x: 0.15,
+    y: -0.5,
   },
   {
     color: '#E23045',
     x: -0.24,
-    y: 0.18,
+    y: -0.7,
   },
   {
     color: '#E6E656',
-    x: 0.4,
-    y: 0.1,
+    x: -0.6,
+    y: -0.3,
   },
   {
     color: '#F3CFBA',
-    x: -0.3,
-    y: -0.38,
+    x: 0.4,
+    y: -0.0,
   },
   {
     color: '#E6E656',
-    x: 0.01,
-    y: 0.18,
+    x: 0.5,
+    y: 0.2,
   },
   {
     color: '#E6E656',
@@ -36,13 +36,13 @@ const christmasBubbles = [
   },
   {
     color: '#E6E656',
-    x: 0.3,
-    y: 0.28,
+    x: -0.6,
+    y: 0.26,
   },
   {
     color: '#F3CFBA',
-    x: -0.4,
-    y: 0.1,
+    x: 0,
+    y: 0.26,
   },
 ];
 
