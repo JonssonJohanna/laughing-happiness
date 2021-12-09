@@ -53,7 +53,7 @@ h2 {
   display: inline-block;
   padding: 1rem;
   top: 0;
-  height: 80px;
+  height: 100px;
   width: 100px;
   margin-left: 12%;
 }
@@ -81,11 +81,11 @@ h2 {
   padding: 20px;
   right: 10%;
   height: 100px;
-  width: 80px;
+  width: 100px;
   background-color: transparent;
+  border: none;
   padding: 1rem;
   margin-left: 12%;
-  border: 5px solid var(--color-text);
   cursor: pointer;
 }
 
