@@ -31,15 +31,28 @@
 
   .powerButton {
     color: var(--color-text);
-    position: fixed;
-    padding: 20px;
-    right: 10%;
-    top: 30px;
     height: 150px;
     width: 130px;
-    background-color: var(--color-background);
+    position: fixed;
+    top: 30px;
+    background-color: transparent;
     padding: 1rem;
     border: 5px solid var(--color-text);
+    display: inline-block;
+  }
+
+  .bell {
+    left: 50%;
+    position: absolute;
+  }
+
+  .bell img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    right: 30%;
   }
 
   .powerButton img {
@@ -48,18 +61,18 @@
   }
 
   .christmastreeContainer {
-    height: 700px;
+    height: 650px;
     align-items: center;
     justify-self: center;
     position: relative;
-    margin-top: 0;
+    top: 0;
     margin: auto;
   }
 
   .christmastreeNotLight {
     height: 650px;
     width: auto;
-    margin-top: 0;
+    top: 0;
     position: absolute;
     object-fit: contain;
   }
