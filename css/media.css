@@ -29,32 +29,24 @@
     height: 100vh;
   }
 
-  .powerButton {
-    color: var(--color-text);
-    height: 150px;
-    width: 130px;
-    position: fixed;
-    top: 30px;
-    background-color: transparent;
-    padding: 1rem;
-    border: 5px solid var(--color-text);
-    display: inline-block;
-  }
-
   .bell {
-    left: 50%;
+    left: 52%;
     position: absolute;
+    top: 1rem;
   }
 
   .bell img {
     height: 100px;
     width: 100px;
-    position: absolute;
-    display: inline-block;
-    top: 30px;
-    right: 30%;
   }
 
+  .powerButton {
+    color: var(--color-text);
+    height: 150px;
+    width: 130px;
+    top: 1rem;
+    position: absolute;
+  }
   .powerButton img {
     height: 100px;
     width: 90px;
