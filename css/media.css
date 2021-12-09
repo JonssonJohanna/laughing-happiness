@@ -1,5 +1,58 @@
-@media only screen and (min-width: 350px) {
-  /* mobile */
+@media only screen and (min-width: 767px) {
+  /* Tablet */
+
+  h1 {
+    display: block;
+  }
+  .bell {
+    left: 50%;
+    position: absolute;
+    top: 1rem;
+  }
+
+  .bell img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .powerButton {
+    color: var(--color-text);
+    top: 1rem;
+    position: absolute;
+  }
+  .powerButton img {
+    height: 80px;
+    width: 70px;
+  }
+
+  .christmastreeContainer {
+    height: 650px;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    top: 0;
+    margin: auto;
+  }
+
+  .christmastreeNotLight {
+    height: 650px;
+    width: auto;
+    top: 0;
+    position: absolute;
+    object-fit: contain;
+  }
+  .bubblesContainer {
+    display: flex;
+    height: 100%;
+    width: 502px;
+  }
+
+  .bubble {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: absolute;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
