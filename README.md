@@ -1,12 +1,19 @@
 <img src="https://media.giphy.com/media/3ohs7K0MoUDfYI43eM/giphy.gif">
 
-# Project Title
+# Laughing-happiness Useless web
 
-Text about the project. This would also be a great place to link the game on Netlify.
+This is our first individual assignment in JavaScript, the purpose was to create a useless website of our choice using HTML, CSS and JavaScript. Since it soon christmas I decided to create a useles christmas tree. The page includes two buttons yhat have different functions and a key press function that plays music.
+
+Link to Netlify : https://fervent-hermann-d91925.netlify.app/
 
 # Installation
 
-Add the installation instructions.
+Follow the steps below for installation.
+
+1. clone the repository so that you can access the files on your computer and open them in your code editor. https://github.com/JonssonJohanna/laughing-happiness
+2.
+3.
+4.
 
 # Code Review
 
