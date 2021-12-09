@@ -25,6 +25,10 @@ body {
   height: 100vh;
 }
 
+.backgroundColor {
+  background-color: var(--color-border);
+}
+
 h1 {
   color: var(--color-text);
   text-align: left;
@@ -42,16 +46,45 @@ h2 {
   display: inline-block;
 }
 
+.bell {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  padding: 1rem;
+  top: 0;
+  height: 80px;
+  width: 100px;
+  margin-left: 12%;
+}
+
+.moveBell {
+  transform: rotate(100deg);
+  transform-origin: top;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
 .powerButton {
-  color: var(--color-text);
-  position: fixed;
   padding: 20px;
   right: 10%;
-  top: 8rem;
   height: 100px;
   width: 80px;
-  background-color: var(--color-background);
+  background-color: transparent;
   padding: 1rem;
+  margin-left: 12%;
   border: 5px solid var(--color-text);
   cursor: pointer;
 }
