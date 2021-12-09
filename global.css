@@ -5,7 +5,6 @@
 
   /* Colors */
   --color-background: #682332;
-  --color-second-bg: #ce4b4b;
   --color-text: #f5dfbc;
   --color-border: #0d3f33;
   --color-bubble-beige: #f3cfba;
@@ -28,7 +27,7 @@ body {
   padding: 20px;
   height: 100vh;
 }
-
+/* class created in click.js for changing background color on scroll. */
 .backgroundColor {
   background-color: var(--color-border);
 }
@@ -61,7 +60,7 @@ h2 {
   width: 100px;
   margin-left: 12%;
 }
-
+/* class created to allow "bell" so stop moving when dblclick in doubleClick.js */
 .moveBell {
   transform: rotate(100deg);
   transform-origin: top;
@@ -108,6 +107,7 @@ h2 {
   position: absolute;
 }
 
+/* Container that controls that "bubble" don't spread out too much on the screen. */
 .bubblesContainer {
   display: flex;
   justify-items: center;
@@ -116,6 +116,7 @@ h2 {
   gap: 10px;
 }
 
+/* class added in loop in key.js */
 .bubble {
   height: 40px;
   width: 40px;
@@ -125,6 +126,7 @@ h2 {
   display: none;
 }
 
+/* Class added with toggle in key.js */
 .bubble.on {
   display: flex;
 }
