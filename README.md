@@ -28,4 +28,4 @@ Follow the steps below for installation.
 Tested by the following people:
 
 1. Emma Hansson
-2. John Doe
+2. Amanda Karlsson
