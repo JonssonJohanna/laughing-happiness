@@ -16,7 +16,6 @@
   }
 
   .powerButton {
-    color: var(--color-text);
     top: 1rem;
     position: absolute;
   }
@@ -26,32 +25,12 @@
   }
 
   .christmastreeContainer {
-    height: 650px;
-    align-items: center;
-    justify-self: center;
-    position: relative;
     top: 0;
     margin: auto;
   }
 
   .christmastreeNotLight {
-    height: 650px;
-    width: auto;
     top: 0;
-    position: absolute;
-    object-fit: contain;
-  }
-  .bubblesContainer {
-    display: flex;
-    height: 100%;
-    width: 502px;
-  }
-
-  .bubble {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    position: absolute;
   }
 }
 
@@ -59,20 +38,14 @@
   /* desktop */
 
   h1 {
-    color: var(--color-text);
-    text-align: left;
     margin-top: 1rem;
     padding: 1rem;
     font-size: var(--h1);
-    font-family: Poppins-Regular;
-    display: inline-table;
+    display: inline;
   }
 
   h2 {
-    color: var(--color-text);
-    text-align: left;
     font-size: var(--h2);
-    font-family: Poppins-Regular;
     display: inline;
   }
   body {
@@ -94,7 +67,6 @@
   }
 
   .powerButton {
-    color: var(--color-text);
     height: 150px;
     width: 130px;
     top: 1rem;
@@ -111,7 +83,6 @@
     justify-self: center;
     position: relative;
     top: 0;
-    margin: auto;
   }
 
   .christmastreeNotLight {
@@ -128,9 +99,6 @@
   }
 
   .bubble {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
     position: absolute;
   }
 }
