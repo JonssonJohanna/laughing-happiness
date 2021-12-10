@@ -27,5 +27,5 @@ Follow the steps below for installation.
 
 Tested by the following people:
 
-1. Jane Doe
+1. Emma Hansson
 2. John Doe
