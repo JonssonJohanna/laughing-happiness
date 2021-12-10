@@ -2,18 +2,19 @@
 
 # Laughing-happiness Useless web
 
-This is our first individual assignment in JavaScript, the purpose was to create a useless website of our choice using HTML, CSS and JavaScript. Since it soon christmas I decided to create a useles christmas tree. The page includes two buttons yhat have different functions and a key press function that plays music.
+This is our first individual assignment in JavaScript, the purpose was to create a useless website of our choice using HTML, CSS and JavaScript. Since it is two weeks until christmas I decided to create a useles christmas tree. The project includes click, double click, scroll and key press events. Try them out and see what happens.
 
-Link to Netlify : https://fervent-hermann-d91925.netlify.app/
+# Link to Netlify
+
+https://fervent-hermann-d91925.netlify.app/
 
 # Installation
 
 Follow the steps below for installation.
 
 1. clone the repository so that you can access the files on your computer and open them in your code editor. https://github.com/JonssonJohanna/laughing-happiness
-2.
-3.
-4.
+2. Open the project in your editor
+3. To see the project in your browser, right click on the index.html file and click Open Live server.
 
 # Code Review
 
