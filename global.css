@@ -38,7 +38,6 @@ h1 {
   font-size: var(--h1);
   font-family: 'Poppins-Regular';
   display: inline-block;
-  margin-top: 1rem;
 }
 
 h2 {
@@ -56,8 +55,6 @@ h2 {
   display: inline-block;
   height: 100px;
   width: 100px;
-  padding: 1rem;
-  top: 0;
   margin-left: 12%;
 }
 /* class created to allow "bell" so stop moving when dblclick in doubleClick.js */
@@ -88,7 +85,6 @@ h2 {
   right: 10%;
   height: 100px;
   width: 100px;
-  padding: 1rem;
   margin-left: 12%;
 }
 
