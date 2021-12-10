@@ -48,7 +48,7 @@ const christmasBubbles = [
   },
 ];
 
-// Loop -> creates five christmasbubbles (div) -> ads a class name to them
+// Loop -> creates 8 christmasbubbles (div) -> ads a class name to them
 // "bubble"-->bubble appendchild to "bubbleContainer"
 // Loops thorugh bubbleInformation and calculates the width and height of the
 // conatiner to make it easier to place the bubbles
