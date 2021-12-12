@@ -1,18 +1,18 @@
 :root {
-  /* Font sizse */
+  /* Font size */
   --h1: 1.3rem;
   --h2: 1rem;
 
   /* Colors */
   --color-background: #682332;
-  --color-bg-second: #0d3f33;
+  --color-bg-second: #012c5f;
   --color-text: #f5dfbc;
   --color-bubble-beige: #f3cfba;
   --color-bubble-yellow: #e6e656;
   --color-bubble-red: #e23045;
   --color-bubble-blue: #237ee2;
 
-  /* Fonts */
+  /* Font */
   --font-main: Poppins-Regular;
 }
 
@@ -57,7 +57,7 @@ h2 {
   width: 100px;
   margin-left: 12%;
 }
-/* class created to allow "bell" so stop moving when dblclick in doubleClick.js */
+/* class created to allow "bell" to stop moving when dblclick in doubleClick.js */
 .moveBell {
   transform: rotate(15deg);
   transform-origin: top;
