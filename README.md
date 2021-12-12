@@ -6,7 +6,7 @@ This is our first individual assignment in JavaScript, the purpose was to create
 
 # Link to Netlify
 
-https://fervent-hermann-d91925.netlify.app/
+https://christmastree-d91925.netlify.app/
 
 # Installation
 
