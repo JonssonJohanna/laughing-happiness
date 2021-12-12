@@ -2,7 +2,7 @@
 
 # Laughing-happiness Useless web
 
-This is our first individual assignment in JavaScript, the purpose was to create a useless website of our choice using HTML, CSS and JavaScript. Since it is two weeks until christmas I decided to create a useles christmas tree. The project includes click, double click, scroll and key press events. Try them out and see what happens.
+This is our first individual assignment in JavaScript, the purpose was to create a useless website of our choice using HTML, CSS and JavaScript. Christmas is just around the corner so I decided to create a useles christmas tree. The project includes click, double click, scroll and key press events. Try them out and see what happens.
 
 # Link to Netlify
 
