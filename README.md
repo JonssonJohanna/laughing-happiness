@@ -18,11 +18,13 @@ Follow the steps below for installation.
 
 # Code Review
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. I don't quite understand why `global.css` is outside of your css folder.
+2. Scroll listener doesn't work on desktop, is this on purpose? If so, why?
+3. Good use of comments throughout your files. Makes it easy to read and understand your code – keep it up!
+4. Great job being consistent when naming classes, consts, ids etc.
+5. **Minor detail** - If you want your christmas tree to stand still while switching it on/off, make sure all images have same width and height when exporting out of figma.  
+
+> **Overall fantastic work! You seem to have a good understanding of the foundamentals of JavaScript. I love the theme of your website! Here's a star! ⭐**  
 
 # Testers
 
