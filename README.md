@@ -22,9 +22,9 @@ Follow the steps below for installation.
 2. Scroll listener doesn't work on desktop, is this on purpose? If so, why?
 3. Good use of comments throughout your files. Makes it easy to read and understand your code – keep it up!
 4. Great job being consistent when naming classes, consts, ids etc.
-5. **Minor detail** - If you want your christmas tree to stand still while switching it on/off, make sure all images have same width and height when exporting out of figma.  
+5. **Minor detail** - If you want your christmas tree to stand still while switching it on/off, make sure all images have same width and height when exporting out of figma.
 
-> **Overall fantastic work! You seem to have a good understanding of the foundamentals of JavaScript. I love the theme of your website! Here's a star! ⭐**  
+> **Overall fantastic work! You seem to have a good understanding of the foundamentals of JavaScript. I love the theme of your website! Here's a star! ⭐**
 
 # Testers
 
